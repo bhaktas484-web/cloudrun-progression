@@ -1,0 +1,12 @@
+{
+  "triggerTemplate": {
+    "projectId": "qwiklabs-gcp-01-c27079f96351",
+    "repoName": "cloudrun-progression",
+    "branchName": "master"
+  },
+  "name": "master",
+  "description": "Trigger canary build/deploy for any commit to the master branch",
+
+  "filename": "master-cloudbuild.yaml",
+  "serviceAccount": "projects/qwiklabs-gcp-01-c27079f96351/serviceAccounts/11442125390-compute@developer.gserviceaccount.com"
+}
